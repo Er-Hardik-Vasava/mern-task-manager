@@ -1,5 +1,5 @@
 {
-  "name": "bd",
+  "name": "taskmanager",
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
@@ -7,9 +7,9 @@
     "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "hardik vasava",
   "license": "ISC",
-  "description": "",
+  "description": "backend for task manager",
   "dependencies": {
     "bcrypt": "^5.1.1",
     "cookie-parser": "^1.4.6",
