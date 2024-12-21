@@ -18,7 +18,7 @@ const Login = () => {
     const trimmedEmail = email.trim();
     const trimmedPassword = password.trim();
 
-    setIsLoading(true); // Start loading
+    setIsLoading(true); 
 
     try {
       const { data } = await axios.post(

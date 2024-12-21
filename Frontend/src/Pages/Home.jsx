@@ -6,7 +6,7 @@ import { AuthContext } from "../context/AuthContext";
 
 const Home = () => {
   const [tasks, setTasks] = useState([]);
-  const [loading, setLoading] = useState(true); // Loading state
+  const [loading, setLoading] = useState(true);
   const { isAuthenticated } = useContext(AuthContext);
   const navigateTo = useNavigate();
 
@@ -25,7 +25,7 @@ const Home = () => {
       console.error("Error fetching tasks:", error);
       toast.error("Failed to fetch tasks.");
     } finally {
-      setLoading(false); // Stop loading
+      setLoading(false); 
     }
   };
 
@@ -51,7 +51,7 @@ const Home = () => {
     }
   };
 
-  if (loading) return <div className="text-center">Loading...</div>; // Loading message
+  if (loading) return <div className="text-center">Loading...</div>; 
 
   return (
     <div className="container mx-auto p-4">

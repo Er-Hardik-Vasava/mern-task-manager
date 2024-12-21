@@ -6,7 +6,7 @@ import { AuthContext } from "../context/AuthContext";
 
 const Navbar = () => {
   const { setIsAuthenticated, isAuthenticated } = useContext(AuthContext);
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false); // State for mobile menu
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false); 
 
   const handleLogout = async (e) => {
     e.preventDefault();
@@ -25,7 +25,7 @@ const Navbar = () => {
     }
   };
 
-  // Toggle mobile menu visibility
+
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
@@ -47,15 +47,15 @@ const Navbar = () => {
                 Logout
               </Link>
             </div>
-            {/* Mobile Menu Button */}
+            
             <div className="md:hidden">
               <button className="text-gray-300 hover:text-white" onClick={toggleMobileMenu}>
-                {/* Hamburger icon */}
+               
                 &#9776;
               </button>
             </div>
           </div>
-          {/* Mobile Menu */}
+         
           {isMobileMenuOpen && (
             <div className="md:hidden">
               <ul className="flex flex-col space-y-2 mt-2">
