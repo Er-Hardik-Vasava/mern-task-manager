@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Task Manager - MERN Stack Application
 
 The Task Manager is a web application built using the **MERN** stack (MongoDB, Express.js, React, Node.js) for managing tasks with secure user authentication. The app allows users to create, update, delete, and track tasks with statuses like **Pending**, **Accepted**, and **Completed**. It features a **responsive** React UI, a **RESTful API**, and **MongoDB** for securely storing user data and tasks.
@@ -42,4 +41,3 @@ The Task Manager is a web application built using the **MERN** stack (MongoDB, E
 - **Database**: MongoDB
 - **Authentication**: JWT (JSON Web Tokens) for secure authentication
 - **API Communication**: RESTful APIs
->>>>>>> 6da6ae53d1fa329b356480fc2a3dc38482314295
